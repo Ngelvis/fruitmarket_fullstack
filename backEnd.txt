@@ -1,0 +1,198 @@
+
+Introduction to Node.js
+----------------------
+-Created in 2009 by Ryan Dahl
+-Created to fix limitations to traditional web servers 
+-Problems such as memory issues, time it takes to fetch data i.e
+(read and write operations) e.t.c 
+-Reason why ASYNCHRONOUS operations were developed
+
+Key Reasons to use Node.js
+-JavaScript everywhere: you don't need to change to a new language
+-ASYNCHRONOUS operations:Helps you to handle multiple tasks simultaneously
+-Rich Ecosystem: Enough help online
+-Scalability: It is lightweight 
+
+
+ASYNCHRONOUS nature of NODE.js
+- Ability to perform multiple tasks simultaneously
+
+Basic Node.js Concepts 
+-Node.js is a toolbox
+-It is still built in Modules (Reuseable pieces of code) 
+-It is an event driven architecture: Allow you perform multiple tasks
+-npm (Node Package Manager): it helps you to install and Manage libraries
+-It saves tim and effort
+
+EXPRESS JS
+-It is used
+
+
+
+Setting up NODE.JS Environment
+-------------------
+-Install Node
+-Verify Installation (node --version)
+-npm init -y
+-npm install express
+-npm install nodemon
+-npm install mongodb
+-npm install mongoose
+-npm install cloudinary
+-npm install multer
+
+
+
+const mongoose = require('mongoose');
+
+mongoose.connect('mongodb://127.0.0.1:27017/test')
+  .then(() => console.log('Connected!'));
+
+mongodb+srv://elvisngerem:zdqIz6QV5pNOgaIM@cluster0.blgm1y4.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+
+
+
+Creating routes and handling HTTP Request 
+-----------------
+Types of HTTP Requests
+
+-GET
+-POST
+-PUT
+-DELETE
+
+Anatomy of HTTP Request
+
+-URL
+-METHOD
+-HEADER
+-BODY
+
+CRUD operation
+
+-CREATE
+-READ
+-UPDATE
+-DELETE
+
+Middleware helps us manage request an response coming from the server
+
+Questions for the teacher
+1. We need the JSON data?
+2. How do we upload the JSON data from?
+
+
+Status codes
+------------
+404 - Bad User Request
+401
+402
+
+
+200 - Good Response
+201
+202
+
+
+500 - Server Error
+501
+502
+============================================================================================================================================================
+
+
+
+============================================================================================================================================================
+
+npm init -y
+npm install express
+npm install nodemon
+npm install mongodb
+npm install mongoose
+npm install cors
+npm install dotenv
+npm install jsonwebtoken
+npm install bcrypt
+
+
+
+INTRODUCTION TO NODE.JS
+-Created in 2009 by Ryan Dahl
+-created to fix limitations to traditonal web servers
+- Problems such as memory issues, time it takes to fetch data i.e
+(read and write operations) e.t.c
+- Reason why Asynchronous operation was developed
+
+KEY REASONS TO USE NODE.JS
+- JavaScript Everywhere: You don't have to change to new language
+- Asynchronous Operations: Helps you to handle multiple tasks simultaneously 
+- Rich Ecosystem: You can get enough help online
+- Scalable
+-
+
+ASYNCHRONOUS NATURE OF NODEJS
+-This simply means ability to perform multiple tasks simultenously 
+
+BASIC NODE.JS CONCEPTS
+- Modules: Resuseable pieces of codes
+- Event-driven architecture: Allows you to perform multiple tasks
+- npm(Node package Manager): install libaries, saves time and effort.
+
+SETTING NODE.JS ENVIRONMENT
+- Download Node
+- install Node
+- Verify installation (node --version)
+
+
+EXPRESS JS
+- It's used specifically for making building Web Application easy
+- Express.js is made from Nodejs
+
+
+SETTING UP EXPRESS JS
+- initialise node (npm init -y)
+- Install Express (npm install express)
+-
+
+CREATING ROUTES AND HANDLING HTTPS REQUEST
+
+      HTTP - Hypertext Transfer Protocol
+
+- ROUTES are paths to handle request and responses
+- HTTP request are more like visiting a website in your browser
+- HTTP response is what you get back from the server in your 
+
+TYPES OF HTTP REQUEST
+- GET - You fetch data with this request from a server
+- POST - used to submit data to the server
+- PUT - we use it to update resource on the server
+- DELETE - We use this to delete a resource from the server
+
+ANATOMY OF HTTP REQUEST
+- URL - Helps you to specify the address of the resource you want to access
+- METHOD - Specifies the type of request (GET, POST, PUT, DELETE)
+- Headers - additional information about the request e.g content-Type
+- BODY: Contains the data to be sent to the server(JSON e.t.c)
+
+
+HANDLING HTTP REQUEST IN WEB APPLICATION
+- 
+
+
+INSTALLATIONS
+
+
+
+CRUD OPERATION
+
+C - CREATE = POST
+R - READ = GET
+U - UPDATE = PUT
+D - DELETE = DELETE
+
+
+
+INDEX.JS <=== PRODUCT.ROUTE.JS <==== PRODUCT.CONROLLER.JS (actions to perform) <=== 
+
+PRODUCT.JS (MODEL)
+
+
